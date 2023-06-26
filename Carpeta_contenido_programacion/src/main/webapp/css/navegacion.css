@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+   
+}
+.primeranavopciones{
+  gap: 5%;
+}
+
+/* primer nav */
+
+#primernav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  background-color: black;
+  height: 100px;
+
+
+}
+
+
+#img2 img{
+
+height: 40px;
+margin-left:10px ;
+
+}
+.primeranavopciones{
+  display: flex;
+  margin-right: 20%;
+
+  
+}
+
+  
+.ladearriba a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+input{
+    border: 1px solid white;
+   color: rgb(0, 0, 0);
+  border-radius: 3px;
+  
+   
+
+    
+  }
+
+#img1{
+    display: block;
+    width: 13em;
+    margin-left: 20%;
+   
+}
+
+#buscar{
+    padding: 3% 0% 3% 3%;
+}
+
+label{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-right: 10%;
+}
+
+#login, #cesta{
+
+   text-decoration: none;
+   border-radius: 3px;
+   border: 1px solid white;
+   width: 150px;
+   padding: 3% 0% 3% 3%;
+   
+
+}
+
+
+
+input, a{
+
+  margin-top:10px;
+}
+
+#login:hover, #cesta:hover{
+
+  background-color: azure;
+  color : black;
+  transition: 0.5s;
+}
+
+
+/* segundo nav */
+
+.segundonav{
+  display: flex;
+  justify-content:center;
+  list-style-type: none;
+  background-color:#1A120B;
+  padding-inline-start: 0;
+}
+.segundonav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.coloresnav{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 20px 10px 20px 10px;
+  margin: 0px 10px 0px 10px;
+  min-width: 2em;
+}
+
+.segundonav ul li:hover{
+    color: rgb(243, 232, 253);
+    background-color: rgb(0, 0, 0);
+    transition: 0.4s;
+    
+}
+
+#usuario img{
+    height: 40px;
+    
+}
+
+@media (max-width:1043px) {
+
+#buscar{
+  display: none;
+}
+
+#img1{
+  width: 7em;
+  margin:0.5%;
+}
+
+#login{
+  width: 125px;
+  margin-left: 0.5%;
+
+}
+
+#cesta{
+  width: 100px;
+  padding: 4%;
+}
+
+#primernav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  background-color: black;
+  height: 80px;
+}
+
+.segundonav{
+  display: flex;
+  flex-direction: column;
+}
+
+.segundonav ul{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.coloresnav{
+  padding: 15px 20px 15px 20px;
+  margin: 0px 8px 0px 8px;
+  min-width: 2em;
+  font-size: 15px;
+  
+}
+
+}

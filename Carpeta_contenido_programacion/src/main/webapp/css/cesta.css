@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;     
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+    display: grid;
+    grid-template-rows: 1fr 4.2fr 0.7fr;
+}
+
+
+main{
+    background-color: #E5E5CB;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 1%;
+  }
+
+.imgs{
+    height: 100px;
+}
+
+.primero{
+    padding: 10px;
+    text-align: center;
+    width: 20%; 
+}
+
+.segundo{
+    padding: 10px;
+    text-align: center;
+    width: 50%; 
+}
+
+b{
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    color: #080411;
+    background-color: #D5CEA3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.eliminar{
+    text-decoration: none;
+    color: blue;
+}
+
+.eliminar:hover{
+    text-decoration: underline;
+}
+
+select{
+    border-radius: 10px;
+    height: 25px;
+    
+}
+
+.boton{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1.5%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px #000000;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    transition: 0.4s;
+}
+
+#direccion{
+    padding: 0%;
+}
+
+.rojo{
+    color: #E64B2F;
+    font-weight: bold;
+}
+
+.rojo:hover{
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+@media (max-width:867px) {
+
+.textito{
+    display: none;
+}
+
+.imgs{
+    height: 80px;
+}
+
+}

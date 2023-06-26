@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;        
+    }
+
+.principal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 682px;
+    grid-template-areas: "nespresso italianas";
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+}
+
+.nespresso{
+    grid-area: nespresso;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D5CEA3;
+}
+
+.italianas{
+    grid-area: italianas;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5CB;
+}
+
+.imgStar{
+    height: 40%;
+}
+
+.boton{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px #000000;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    transition: 0.4s;
+}
+
+.textoBajo{
+    margin-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

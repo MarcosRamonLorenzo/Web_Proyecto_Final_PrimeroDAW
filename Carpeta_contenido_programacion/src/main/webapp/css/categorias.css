@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;        
+    }
+
+.principal{
+    display: grid;
+    grid-template-columns: 33.4% 33.3% 33.3%;
+    grid-template-rows: 682px;
+    grid-template-areas: "cafeteras molido capsulas";
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+}
+
+.cafeteras{
+    grid-area: cafeteras;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D5CEA3;
+}
+
+.molido{
+    grid-area: molido;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5CB;
+}
+
+.capsulas{
+    grid-area: capsulas;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D5CEA3;
+}
+
+.imgStar{
+    height: 40%;
+}
+
+.boton{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px #000000;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    transition: 0.4s;
+}
+
+.textoBajo{
+    margin-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width:1050px) {
+
+    .principal{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 350px 350px 350px;
+        grid-template-areas: "cafeteras"
+                            "molido"
+                            "capsulas";
+    }
+
+    footer{
+        height: 10%;
+    }
+
+   
+}

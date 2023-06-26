@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(36, 36, 36);
+}
+main{
+
+    background-color: #E5E5CB;
+    padding: 2.6%;
+    
+
+
+}
+form{
+    padding: 25%;
+    padding-bottom: 0%;
+    padding-left: 42%;
+    padding-top: 4%;
+
+}
+
+h2{
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+label{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 10%;
+}
+
+main input{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    border: 2px black solid;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#boton{
+    border: 1px black solid;
+     text-align: center;
+     margin-top: 4%;
+     margin-left: 13%;
+    width: 10%;   
+}
+
+#boton:hover{
+    background-color: black;
+    color: #E5E5CB;
+    transition: 0.3s;
+}
+
+a{
+    font-size: 14px;
+    margin-top: 20px;
+    color: black;
+    
+}
+
+h4{
+    margin-left: 42%;
+    margin-bottom: 11.05%;
+}
+#registrate{
+    text-decoration: none;
+    
+}
+
+.coloresnav a{
+    color: azure;
+    text-decoration: none;
+}
+
+.primeranavopciones  {
+    list-style-type: none;
+    gap: 20px;
+}
+
+@media (max-width:1050px) {
+
+    body{
+        background-color: rgb(36, 36, 36);
+        display: grid;
+        grid-template-rows: 1fr 2.6fr 0.7fr;
+    }
+
+    form{
+        padding-bottom: 0%;
+        padding-left: 25%;
+        padding-top: 15%;
+    
+    }
+
+    h4{
+        margin-left: 25%;
+    }
+
+    
+}
+

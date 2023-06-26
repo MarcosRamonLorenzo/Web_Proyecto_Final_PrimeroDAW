@@ -1,0 +1,185 @@
+*{
+padding: 0px;
+margin: 0px;     
+}
+
+/*MAIN*/
+
+.principal{
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17% 16% 16%;
+    grid-template-rows:  2.5fr 6fr 3fr 2.5fr 6fr;
+    grid-template-areas: "categorias  categorias categorias categorias categorias categorias"
+                        "foto1 foto1 foto2 foto2 foto3 foto3"
+                        "concurso  concurso concurso sNosotros sNosotros sNosotros"
+                        "mVendidos mVendidos mVendidos mVendidos mVendidos mVendidos"
+                        "foto4 foto4 foto5 foto5 foto6 foto6 ";
+}
+
+.textoBajo{
+    margin-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imgStar{
+    height: 200px;
+}
+
+.categorias{
+    grid-area: categorias;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3C2A21;
+}
+
+.h2{
+    font-size: 30px;
+    margin-bottom: 2%;
+    color: white;
+    font-weight: bold;
+}
+
+.txtCateg{
+    color: #cecece;
+    font-weight: bold;
+}
+
+.foto1{
+    grid-area: foto1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5CB;
+}
+
+.foto2{
+    grid-area: foto2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5CB;
+}
+
+.foto3{
+    grid-area: foto3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5CB;
+}
+
+.concurso{
+    grid-area: concurso;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D5CEA3;
+}
+
+.sNosotros{
+    grid-area: sNosotros;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D5CEA3;
+}
+
+.h3{
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+.mVendidos{
+    grid-area: mVendidos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3C2A21;
+}
+
+.foto4{
+    grid-area: foto4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5CB;
+}
+
+.foto5{
+    grid-area: foto5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5CB;
+}
+
+.foto6{
+    grid-area: foto6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5CB;
+}
+
+.boton{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px #000000;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    transition: 0.4s;
+}
+
+.enlaceMasVend{
+    text-decoration: none;
+    color: #1A120B;
+    
+}
+
+
+@media (max-width:1000px) {
+
+        .principal{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 1fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1fr 1.5fr 1.5fr 1.5fr;
+            grid-template-areas: "categorias"
+                                "foto1" 
+                                "foto2"
+                                "foto3"
+                                "concurso"
+                                "sNosotros"
+                                "mVendidos"
+                                "foto4"
+                                "foto5"
+                                "foto6";
+        }
+    
+        .categorias{
+            text-align: center;
+        }
+    
+        .mVendidos{
+            text-align: center;
+        }
+    
+       
+    }

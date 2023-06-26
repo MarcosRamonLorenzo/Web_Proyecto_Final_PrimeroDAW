@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+    display: grid;
+    grid-template-rows: 1fr 4.2fr 0.7fr;
+    
+}
+
+
+
+main{
+    padding-top: 2%;
+    background-color: #E5E5CB;
+    
+    
+    
+}
+.concurso{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+h1{
+    font-size: 30px;
+}
+.texto p{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.form{
+    padding: 1%;
+    border: 1px black solid;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.numeroAleatorio{
+    padding: 5%;
+    background-color:appworkspace ;
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+.enviar{
+    padding: 2%;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color: #000000;
+}
+.enlacelog{
+    font-weight: bold ;
+        text-decoration:none;
+        color:crimson;
+        font-size: 20px;
+}
+
+@media (max-width:1015px) {
+
+    main{
+        padding-top: 6%;
+        background-color: #E5E5CB;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: "h1"
+                            "texto"
+                            "form"
+                            "enviar";
+   
+    }
+
+    .form{
+        padding: 1%;
+        border: 1px black solid;
+        width: 400px;
+        height: 30px;
+        border-radius: 5px;
+       
+    }
+
+    h1{
+        font-size: 25px;
+        margin-left: 2%;
+    }
+
+    .texto p{
+        margin: 3%;
+    }
+
+}
+
